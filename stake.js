@@ -19,7 +19,7 @@ function displayBanner() {
   const bannerWidth = 54;
   const line = '-'.repeat(bannerWidth);
   console.log(`${colors.cyan}${line}${colors.reset}`);
-  console.log(`${colors.cyan}PRIOR TESTNET MINING ACTIVATOR - AIRDROP INSIDERS${colors.reset}`);
+  console.log(`${colors.cyan}PRIOR TESTNET MINING ACTIVATOR - ADB NODE${colors.reset}`);
   console.log(`${colors.cyan}${line}${colors.reset}`);
 }
 
