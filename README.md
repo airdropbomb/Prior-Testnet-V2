@@ -21,27 +21,22 @@ An automated bot for interacting with Prior Protocol's testnet on Base Sepolia. 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/airdropinsiders/Prior-Testnet-Auto-Bot.git
+git clone https://github.com/airdropbomb/Prior-Testnet-V2.git && cd Prior-Testnet-V2
 ```
 
-2. Navigate to the project directory:
-```bash
-cd Prior-Testnet-Auto-Bot
-```
-
-3. Install dependencies:
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-4. Create a `.env` file in the root directory with your wallet private keys:
+3. Create a `.env` file in the root directory with your wallet private keys:
 ```
 WALLET_PK_1=your_private_key_1
 WALLET_PK_2=your_private_key_2
 # Add as many wallets as you need
 ```
 
-5. (Optional) Create a `proxies.txt` file with your proxies (one per line):
+4. (Optional) Create a `proxies.txt` file with your proxies (one per line):
 ```
 user:pass@ip:port
 ip:port
